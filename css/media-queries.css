@@ -118,15 +118,15 @@
       top: 0;
       right: 0;
    }
+   
    #nav-wrap > a {
       width: 48px;
       height: 48px;
       text-align: left;
-      background-color: #CC5200;
+      background-color: #11ABB0;
       position: relative;
       border: none;
       float: right;
-
       font: 0/0 a;
       text-shadow: none;
       color: transparent;
