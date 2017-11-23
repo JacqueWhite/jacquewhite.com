@@ -503,7 +503,11 @@ strong.fa-quora {
 }
 
 #skill .skill-summary {
-  margin: 0 0 10px 0;
+  margin: 0 10px 10px 10px;
+}
+
+p.skill-summary {
+  margin: 0 10px 10px 10px;
 }
 
 
@@ -519,6 +523,8 @@ strong.fa-quora {
 }
 .bars .skills {
     margin-top: 12px;
+    margin-right: 12px;
+    margin-left: 12px;
    list-style: none;
 }
 .bars li {
@@ -745,13 +751,19 @@ img.portfolio-img {
    overflow: hidden;
    position: relative;
    height: 20rem;
-  width: 20rem;
+   width: 20rem;
    -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
 }
+
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
