@@ -99,7 +99,7 @@
    }
    #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
 
-   .popup-modal { max-width: 90%; max-height: 80%; overflow: auto; }
+   .popup-modal { width: 90%; height: auto; overflow: auto; }
 }
 
 /* mobile wide/smaller tablets
@@ -118,7 +118,7 @@
       top: 0;
       right: 0;
    }
-   
+
    #nav-wrap > a {
       width: 48px;
       height: 48px;
@@ -281,8 +281,8 @@
    #testimonials .header-col h1:before { content: none; }
    #testimonials blockquote { padding-bottom: 24px; }
    #testimonials blockquote p {
-      font-size: 20px;
-      line-height: 42px;
+      font-size: 16px;
+      line-height: 34px;
    }
 
    /* Control Nav */

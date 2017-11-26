@@ -509,6 +509,7 @@ strong.fa-quora {
 p.skill-summary {
   margin: 0 10px 10px 10px;
 }
+}
 
 
 /*----------------------------------------------*/
@@ -874,14 +875,15 @@ img.portfolio-img {
 .popup-modal .link-box {
    padding: 18px 36px;
    background: #111;
-   text-align: left;
+   text-align: center;
 }
 .popup-modal .link-box a {
    color: #fff;
-  font: 11px/21px 'opensans-bold', sans-serif;
-  text-transform: uppercase;
+   font: 11px/21px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
+   text-align: center;
 }
 .popup-modal a:hover {  color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
