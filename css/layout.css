@@ -76,27 +76,56 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   display: block;
 }
+
+header::after {
+  content: '';
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background: #161415 url(../images/header-background.jpg) no-repeat center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*div::after {
+  content: "";
+  background: url(image.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}*/
 
 /* vertically center banner section */
 header:before {
    content: '';
-   display: inline-block;
+   display: inline-table;
    vertical-align: middle;
    height: 100%;
 }
+
 header .banner {
-   display: inline-block;
-   vertical-align: middle;
+   display: inline-table;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+/*   padding-bottom: 30px;*/
    text-align: center;
+   z-index: 2;
 }
 
 header .banner-text { width: 100%; }
@@ -104,8 +133,9 @@ header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   margin: 0 auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   z-index: 2;
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
@@ -113,21 +143,23 @@ header .banner-text h3 {
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   z-index: 2;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
 }
-header .banner-text hr {
+/*header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
-}
+   z-index: 2;
+}*/
 
 /* header social links */
 header .social {
-   margin: 24px 0;
+   margin: 0 0;
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
@@ -285,8 +317,6 @@ strong.fa-quora {
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
-   overflow: hidden;
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
@@ -1197,7 +1227,6 @@ img.portfolio-img {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
    margin-bottom: 48px;
    color: #303030;
    font-size: 14px;
@@ -1251,7 +1280,7 @@ footer .social-links li:first-child { margin-left: 0; }
 /* Go To Top Button */
 #go-top {
   position: absolute;
-  top: -24px;
+  top: -75px;
    left: 50%;
    margin-left: -30px;
 }
