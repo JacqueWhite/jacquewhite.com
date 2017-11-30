@@ -275,7 +275,6 @@ ul#nav li.current a { color: #11ABB0; }
 
 #about i.fa {
   color: #fff;
-  padding: 0 10px;
   font-size: 2.7rem; 
 }
 
@@ -312,6 +311,7 @@ ul#nav li.current a { color: #11ABB0; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
+   padding: 10px 15px;
 }
 
 #about .download .button:hover {
@@ -329,7 +329,6 @@ strong.fa-quora {
 }
 
 #contact-icons {
-  text-align: center;
   margin: 15px;
 }
 
