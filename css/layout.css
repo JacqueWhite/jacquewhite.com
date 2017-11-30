@@ -273,12 +273,12 @@ ul#nav li.current a { color: #11ABB0; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #70d8d6;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ececec;
 }
 #about .profile-pic {
    position: relative;
