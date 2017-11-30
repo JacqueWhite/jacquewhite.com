@@ -268,8 +268,25 @@ ul#nav li.current a { color: #11ABB0; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #about a:visited  {
+  color: #fff;
+  padding: 0 10px;
+}
+
+#about i.fa {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 2.7rem; 
+}
+
+#about i.fa:hover {
+  color: #f8bbd0;
+}
+
+
+#about a:hover, #about a:focus { 
+   color: #f8bbd0; 
+}
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -296,10 +313,12 @@ ul#nav li.current a { color: #11ABB0; }
    margin-top: 6px;
    background: #444;
 }
+
 #about .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
+
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
@@ -307,6 +326,11 @@ ul#nav li.current a { color: #11ABB0; }
 
 strong.fa-quora {
   font: 100% serif;
+}
+
+#contact-icons {
+  text-align: center;
+  margin: 15px;
 }
 
 
