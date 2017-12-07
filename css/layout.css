@@ -895,7 +895,7 @@ img.portfolio-img {
 /* popup modal */
 .popup-modal {
   max-width: 500px;
-  max-height: 90%;
+  max-height: 100%;
   overflow: auto;
   background: #fff;
   position: fixed;

@@ -266,7 +266,7 @@
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; margin-left: 15%;
     margin-right: 15%; }
-   .popup-modal { max-width: 90%; max-height: 80%; overflow: auto; }
+   .popup-modal { max-width: 100%; max-height: 100%; overflow: auto; }
 
 
    /* Testimonials Section
