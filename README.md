@@ -6,7 +6,7 @@ I'm currently looking for my next big challenge as a full stack javascript devel
 
 <a href="https://jacquewhite.github.io/" target="_blank">View my Portfolio here!</a>
 
-<a href="https://s3.us-east-2.amazonaws.com/jacqueportfolio/jacqueline_white.pdf" download="JacquelineWhite" download target="_blank">Download my Resume</a>
+<a href="https://www.visualcv.com/jacquewhite/" target="_blank">Download my Resume</a>
 
 Connect on <a href="https://www.linkedin.com/in/jacquelinewhite15/" target="_blank">LinkedIn</a>
 
